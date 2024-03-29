@@ -59,6 +59,7 @@ button, input{
 }
 .logo{
     width: 300px;
+    max-width: 100%;
 }
 .pa, .em{
     border: 1px solid hsla(0, 9%, 34%, 0.633);
@@ -144,6 +145,10 @@ button{
         display: none;
     }
     .mid{
+        margin-bottom: 20px;
+    }
+    .img{
+        margin-top: 50px;
         margin-bottom: 20px;
     }
 }
